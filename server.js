@@ -33,13 +33,13 @@ const server = http.createServer((req, res) => {
       </head>
       <body>
         <div class="container">
-          <h1>🚀 Hello from my Home Cluster!</h1>
+          <h1>Hello from my Home Cluster!</h1>
           <div class="info">
             <p><strong>Pod Hostname:</strong> ${hostname}</p>
             <p><strong>Timestamp:</strong> ${timestamp}</p>
             <p><strong>Request URL:</strong> ${req.url}</p>
           </div>
-          <p>This is a custom application deployed via GitOps on my k3s cluster! 🎉</p>
+          <p>This is a custom application deployed via GitOps on my k3s cluster!</p>
         </div>
       </body>
     </html>
